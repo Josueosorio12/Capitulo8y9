@@ -1,0 +1,22 @@
+﻿<Window x:Class="Capitulo8y9.rEjercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo8y9"
+        mc:Ignorable="d"
+        Title="rEjercicio5" Height="311" Width="494">
+    <Grid>
+        <StackPanel Margin="0,0,10,10">
+            <StackPanel Orientation="Horizontal" Margin="30" HorizontalAlignment="Center">
+                <Label Content="Por favor Digite una cadena: "/>
+                <TextBox x:Name="Cadena1" Height="30" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="30" HorizontalAlignment="Center">
+                <Label Content="Por favor digite otra cadena: "/>
+                <TextBox x:Name="Cadena2" Height="30" Width="200"/>
+            </StackPanel>
+            <Button x:Name="Alfabetico" Content="Mostrar orden alfabetico" Height="30" Width="200" Click="Alfabetico_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

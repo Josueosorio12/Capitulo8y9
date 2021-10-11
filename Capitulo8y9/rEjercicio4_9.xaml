@@ -1,0 +1,21 @@
+﻿<Window x:Class="Capitulo8y9.rEjercicio4_9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo8y9"
+        mc:Ignorable="d"
+        Title="rEjercicio4_9" Height="342" Width="395">
+    <Grid Margin="0,0,10,28">
+        <StackPanel HorizontalAlignment="Center">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Tipo de Neumaticos"/>
+                    <Button x:Name="VerButton" Content="Ver" Height="30" Width="50" Click="VerButton_Click"/>
+                </StackPanel>
+
+                <ListBox x:Name="ListaListBox" Height="261" Width="340" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
